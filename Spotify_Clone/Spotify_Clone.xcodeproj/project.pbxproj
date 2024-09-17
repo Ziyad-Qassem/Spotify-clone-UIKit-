@@ -15,7 +15,7 @@
 		DC7402932C964F23009359CB /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402922C964F23009359CB /* TabBarVC.swift */; };
 		DC7402952C965003009359CB /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402942C965003009359CB /* SearchVC.swift */; };
 		DC7402972C965018009359CB /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402962C965018009359CB /* LibraryVC.swift */; };
-		DC7402992C965078009359CB /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402982C965078009359CB /* LogInVC.swift */; };
+		DC7402992C965078009359CB /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402982C965078009359CB /* AuthenticationVC.swift */; };
 		DC74029B2C965084009359CB /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74029A2C965084009359CB /* WelcomeVC.swift */; };
 		DC74029D2C965092009359CB /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74029C2C965092009359CB /* SettingsVC.swift */; };
 		DC74029F2C9650AC009359CB /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74029E2C9650AC009359CB /* PlayerVC.swift */; };
@@ -28,6 +28,9 @@
 		DC7402AD2C9651AA009359CB /* AudioTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402AC2C9651AA009359CB /* AudioTrackModel.swift */; };
 		DC7402AF2C9651B5009359CB /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402AE2C9651B5009359CB /* ArtistModel.swift */; };
 		DC7402B12C9651C5009359CB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402B02C9651C5009359CB /* UserModel.swift */; };
+		DC8730032C98AA0D00B3E97B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8730022C98AA0D00B3E97B /* Constants.swift */; };
+		DC8730062C98AD6D00B3E97B /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8730052C98AD6D00B3E97B /* UIView_Extensions.swift */; };
+		DC94CED22C9A0F02000BA39A /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +44,7 @@
 		DC7402922C964F23009359CB /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		DC7402942C965003009359CB /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		DC7402962C965018009359CB /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
-		DC7402982C965078009359CB /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		DC7402982C965078009359CB /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
 		DC74029A2C965084009359CB /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		DC74029C2C965092009359CB /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		DC74029E2C9650AC009359CB /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		DC7402AC2C9651AA009359CB /* AudioTrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrackModel.swift; sourceTree = "<group>"; };
 		DC7402AE2C9651B5009359CB /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
 		DC7402B02C9651C5009359CB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DC8730022C98AA0D00B3E97B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DC8730052C98AD6D00B3E97B /* UIView_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
+		DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,7 @@
 				DC7402922C964F23009359CB /* TabBarVC.swift */,
 				DC7402942C965003009359CB /* SearchVC.swift */,
 				DC7402962C965018009359CB /* LibraryVC.swift */,
-				DC7402982C965078009359CB /* LogInVC.swift */,
+				DC7402982C965078009359CB /* AuthenticationVC.swift */,
 				DC74029A2C965084009359CB /* WelcomeVC.swift */,
 				DC74029C2C965092009359CB /* SettingsVC.swift */,
 				DC74029E2C9650AC009359CB /* PlayerVC.swift */,
@@ -129,6 +135,7 @@
 				DC7402AC2C9651AA009359CB /* AudioTrackModel.swift */,
 				DC7402AE2C9651B5009359CB /* ArtistModel.swift */,
 				DC7402B02C9651C5009359CB /* UserModel.swift */,
+				DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 				DC7402A42C965160009359CB /* AuthenticationManager.swift */,
 				DC7402A62C965171009359CB /* NetworkManager.swift */,
 				DC7402A82C965180009359CB /* HapticsManager.swift */,
+				DC8730022C98AA0D00B3E97B /* Constants.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -153,11 +161,20 @@
 		DC7402912C9645A8009359CB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC8730042C98AD4500B3E97B /* Extensions  */,
 				DC7402812C9643EE009359CB /* Assets.xcassets */,
 				DC7402782C9643ED009359CB /* AppDelegate.swift */,
 				DC74027A2C9643ED009359CB /* SceneDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC8730042C98AD4500B3E97B /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				DC8730052C98AD6D00B3E97B /* UIView_Extensions.swift */,
+			);
+			path = "Extensions ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +252,8 @@
 				DC7402952C965003009359CB /* SearchVC.swift in Sources */,
 				DC7402972C965018009359CB /* LibraryVC.swift in Sources */,
 				DC7402A92C965180009359CB /* HapticsManager.swift in Sources */,
-				DC7402992C965078009359CB /* LogInVC.swift in Sources */,
+				DC7402992C965078009359CB /* AuthenticationVC.swift in Sources */,
+				DC8730062C98AD6D00B3E97B /* UIView_Extensions.swift in Sources */,
 				DC7402792C9643ED009359CB /* AppDelegate.swift in Sources */,
 				DC7402AD2C9651AA009359CB /* AudioTrackModel.swift in Sources */,
 				DC7402932C964F23009359CB /* TabBarVC.swift in Sources */,
@@ -245,9 +263,11 @@
 				DC74029B2C965084009359CB /* WelcomeVC.swift in Sources */,
 				DC74029D2C965092009359CB /* SettingsVC.swift in Sources */,
 				DC7402A72C965171009359CB /* NetworkManager.swift in Sources */,
+				DC8730032C98AA0D00B3E97B /* Constants.swift in Sources */,
 				DC7402B12C9651C5009359CB /* UserModel.swift in Sources */,
 				DC7402A32C9650CF009359CB /* SearchResultsVC.swift in Sources */,
 				DC74029F2C9650AC009359CB /* PlayerVC.swift in Sources */,
+				DC94CED22C9A0F02000BA39A /* AuthenticationResponse.swift in Sources */,
 				DC7402A12C9650B7009359CB /* PlaylistVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
