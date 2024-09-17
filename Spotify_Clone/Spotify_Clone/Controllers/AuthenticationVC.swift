@@ -44,27 +44,26 @@ class AuthenticationVC: UIViewController, WKNavigationDelegate {
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
        
-        print("********************")
-        print("i'm here before")
-        print("********************")
-        
         guard let url = webView.url else {
-            print("********************")
-            print("i'm here after step one")
-            print("********************")
-            
              return
         }
         
-        // take the  access token as the response value from the Url
-        let urlComponents = URLComponents(string: url.absoluteString)
-    guard let code = urlComponents?.queryItems?.first(where: {$0.name == "Code"})?.value
-        else {
-        return
-    }
+        // take the User's access token as the response value from the Url
+        guard let code = URLComponents(string: url.absoluteString)?.queryItems?.first(where: {$0.name == "code"})?.value else {
+            return
+        }
+        webView.isHidden = true
         print("************************")
         print("Code :  \(code)")
         print("************************")
+        AuthenticationManager.shared.exchangeCodeForToken(code: code) { [weak self] success in
+            
+            DispatchQueue.main.async {
+                self?.navigationController?.popToRootViewController(animated: true)
+                self?.completionHandler?(success)
+            }
+            
+        }
     }
 
 }

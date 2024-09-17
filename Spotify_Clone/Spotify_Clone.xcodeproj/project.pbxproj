@@ -30,6 +30,7 @@
 		DC7402B12C9651C5009359CB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7402B02C9651C5009359CB /* UserModel.swift */; };
 		DC8730032C98AA0D00B3E97B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8730022C98AA0D00B3E97B /* Constants.swift */; };
 		DC8730062C98AD6D00B3E97B /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8730052C98AD6D00B3E97B /* UIView_Extensions.swift */; };
+		DC94CED22C9A0F02000BA39A /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DC7402B02C9651C5009359CB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		DC8730022C98AA0D00B3E97B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC8730052C98AD6D00B3E97B /* UIView_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
+		DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				DC7402AC2C9651AA009359CB /* AudioTrackModel.swift */,
 				DC7402AE2C9651B5009359CB /* ArtistModel.swift */,
 				DC7402B02C9651C5009359CB /* UserModel.swift */,
+				DC94CED12C9A0F02000BA39A /* AuthenticationResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				DC7402B12C9651C5009359CB /* UserModel.swift in Sources */,
 				DC7402A32C9650CF009359CB /* SearchResultsVC.swift in Sources */,
 				DC74029F2C9650AC009359CB /* PlayerVC.swift in Sources */,
+				DC94CED22C9A0F02000BA39A /* AuthenticationResponse.swift in Sources */,
 				DC7402A12C9650B7009359CB /* PlaylistVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
